@@ -33,7 +33,8 @@ CREATE TABLE owners (
   last_name  TEXT,
   address    TEXT,
   city       TEXT,
-  telephone  TEXT
+  telephone  TEXT,
+  age        INT
 );
 CREATE INDEX ON owners (last_name);
 
